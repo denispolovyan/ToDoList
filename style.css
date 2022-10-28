@@ -1,0 +1,58 @@
+:root {
+	--form-color: grey;
+	--form-text-color: white;
+
+}  
+
+form {
+	margin: 50px 0px 0px 50px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 500px; 
+
+}
+
+.headline {
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+}
+
+.btn-position{
+	margin: 0px 0px 0px 20px;
+}
+
+.card {
+	margin: 20px 0px 0px 50px;
+	max-width: 500px;
+}
+
+.text-through {
+	text-decoration: line-through;
+}
+
+.navbar {
+	background-color: var(--form-color);
+	--bs-navbar-color:var(--form-text-color);
+	--bs-navbar-hover-color: var(--form-text-color);
+	--bs-navbar-brand-hover-color: var(--form-text-color);
+}
+
+.navbar-brand {
+	color: var(--form-text-color);
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	padding-left: 55px;
+	margin-right: 100px;
+
+}
+
+.dropdown-menu {
+	--bs-dropdown-min-width: 7.5rem;
+}
