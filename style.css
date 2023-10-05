@@ -1,16 +1,30 @@
 :root {
 	--form-color: grey;
-	--form-text-color: white;
-
+	--form-text-color: rgb(0, 0, 0);
+	--bg-color: #f1f1f1;
+	--form-bg-color: #f1f1f1;
 }  
+
+body {
+	background-color: var(--bg-color);
+}
 
 form {
 	margin: 50px 0px 0px 50px;
-	border: 1px solid #000;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 20px;
 	max-width: 500px; 
-
+	background-color: var(--form-bg-color);
+	border: 1px solid #b7acac;
+}
+.nav-link{
+	border-radius: 5px;
+	color : #000;
+	background-color :var(--bg-color);
+	
+}
+.navbar-brand{
+	color: var(--form-text-color);
 }
 
 .headline {
@@ -25,6 +39,8 @@ form {
 .card {
 	margin: 20px 0px 0px 50px;
 	max-width: 500px;
+	background-color: var(--form-bg-color);
+	border: 1px solid #b7acac
 }
 
 .text-through {
@@ -33,13 +49,6 @@ form {
 
 .navbar {
 	background-color: var(--form-color);
-	--bs-navbar-color:var(--form-text-color);
-	--bs-navbar-hover-color: var(--form-text-color);
-	--bs-navbar-brand-hover-color: var(--form-text-color);
-}
-
-.navbar-brand {
-	color: var(--form-text-color);
 }
 
 .navbar-collapse {
@@ -55,4 +64,9 @@ form {
 
 .dropdown-menu {
 	--bs-dropdown-min-width: 7.5rem;
+}
+
+.header-style {
+	height: 90px;
+	border-bottom: 1px solid #d6d7d7;
 }
